@@ -1,6 +1,6 @@
 package com.class12;
 
-import com.class8.forloop;
+import com.class08.forloop;
 
 public class recap {
 public static void main(String args[]) {
@@ -23,7 +23,6 @@ public static void main(String args[]) {
 	}
 	
 	
-}
 	
 	
 	

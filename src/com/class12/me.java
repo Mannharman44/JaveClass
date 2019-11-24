@@ -9,6 +9,7 @@ class person{
 		System.out.println("My name is : "+name+ " and i am "+age+ " years old");
 		}
 	}
+	
 }
 
 
@@ -24,7 +25,7 @@ public class me {
 		b.name="jon";
 		b.age=98;
 		b.speak();
-		System.out.println(a.name+a.age);
+		
 		
 		
 			

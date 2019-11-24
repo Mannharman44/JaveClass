@@ -5,7 +5,7 @@ public static void main(String[] args) {
 	String name="John";
 	String name2=" kim";
 	
-	System.out.println(name.concat(name2));
+	System.out.println(name.toUpperCase());
 
 	
 	
