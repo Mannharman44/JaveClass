@@ -20,11 +20,27 @@ public class test {
 		
 		
 		
-		Developer dv=new Developer();
-		dv.salary=120000;
-		dv.work();
-		dv.getPaid();
-		dv.code();
+		Developer dev=new Developer();
+		dev.salary=120000;
+		dev.work();
+		dev.getPaid();
+		dev.code();
+		dev.artifacts="Sprint Backlog";
+		dev.ceremonies="Sprint Demo , Planning, Retro,Daily Standup";
+		
+		Tester test=new Tester();
+		test.salary=90000;
+		test.work();
+		test.getPaid();
+		test.test();
+		test.ceremonies="Sprint Demo , Planning, Retro,Daily Standup";
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
