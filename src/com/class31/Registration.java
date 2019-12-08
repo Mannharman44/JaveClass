@@ -6,8 +6,8 @@ public class Registration {
 	
 
 	public void setUserName(String userName) {
-		if(userName.length()<6) {
-			if(userName.isEmpty()) {
+		if(userName.length()>6) {
+			if(!userName.isEmpty()) {
 				
 			}
 		}else {
@@ -18,7 +18,7 @@ public class Registration {
 		return userName;
 	}
 	public void setEmail(String email) {
-if(email.equals("gamil.com")) {
+if(email.contains("gamil.com")) {
 			
 		}
 	}
