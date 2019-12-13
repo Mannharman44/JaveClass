@@ -4,25 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Student {
 
-	String name;
-	int studentId;
-
-	public Student(String name, int studentId) {
-		this.name = name;
-		this.studentId = studentId;
-
-	}
-
-	public void display() {
-
-		System.out.println("My name is " + name + " and my id is " + studentId);
-	}
-
-}
-
-class StudentTest {
+public class StudentTest {
 
 	public static void main(String[] args) {
 
@@ -53,9 +36,27 @@ class StudentTest {
 		Iterator<Student>obj=students.iterator();
 		
 		while(obj.hasNext()) {
-			obj.next().display();
+			Student obj1=obj.next();
+			obj1.display();
+			
 		}
 		
+	}
+
+} class Student {
+
+	String name;
+	int studentId;
+
+	public Student(String name, int studentId) {
+		this.name = name;
+		this.studentId = studentId;
+
+	}
+
+	public void display() {
+
+		System.out.println("My name is " + name + " and my id is " + studentId);
 	}
 
 }
